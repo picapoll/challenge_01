@@ -10,3 +10,6 @@ function max(a,b,c){
 }
 max(2,3,5);
 
+ function f1(){ var a = 1; return f2(); }
+ function f2(){ return a; }
+ f1();
